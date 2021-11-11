@@ -15,7 +15,9 @@ def get_uncompleted_tasks(list):
         if item_in_list["completed"]==False:
             uncompleted_tasks.append(item_in_list)
     return uncompleted_tasks
-    # print(uncompleted_tasks)
+
+
+
 
 
 ## Get a list of completed tasks
