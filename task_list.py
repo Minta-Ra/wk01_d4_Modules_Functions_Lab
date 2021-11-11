@@ -40,7 +40,10 @@ def get_tasks_taking_at_least(list, time):
 
 ## Find a task with a given description
 def get_task_with_description(list, description):
-    pass
+    for item_in_list in list:
+        if item_in_list["description"]==description:
+            return item_in_list
+    return "No such task"
 
 # Extention (Function): 
 
